@@ -1,0 +1,200 @@
+body {
+background-color:#f5f5f5;
+}
+#menu {
+ margin-top: 5em;
+}
+#full{
+    width: 100%;
+}
+#footer {
+	height: 5em;
+	background-repeat: no-repeat;
+  background-image: url(../images/moneycount.png);
+	background-color: rgba(0, 0, 0, 0.44);; 
+}
+#footer-container {
+	position: relative;
+    bottom: -41.3em;;
+}
+#change-btn {
+	  color: rgb(51, 51, 51);
+  background-color: transparent;
+  border-width: 2px;
+  border-color: rgb(204, 204, 204);
+}
+#register-btn , #login-btn{
+	color: rgb(227, 228, 229);
+  background-color: transparent;
+  border-width: 2px;
+ }
+ #register-btn:hover, #login-btn:hover, #change-btn:hover {
+	
+	color: rgb(11, 164, 244);
+	border-color: rgb(11, 164, 244);
+ }
+#jumbotron {
+	  background-color: transparent;
+	  padding: 4em 0 0 0;
+} 
+#thumb {
+	height: 11.7em;
+	display: block;
+  padding: 0em;
+  margin: 0 0.5em 0.5em 0;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 2px solid #0BA4F4;
+  border-radius: 4px;
+}
+#get-started {
+	color: rgb(11, 164, 244);
+} 
+.link-top{
+	  font-size: 3em;
+}
+.navs {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.navs li {
+float: left;
+text-align: center;
+}
+#hr {
+width: 3em;
+  transform: rotate(90deg);
+  padding: 0;
+  margin: 10px;
+}
+hr{
+	 border-top: 1px solid #0BA4F4 !important;
+}
+#btn-support a {
+  color: #0BA4F4 !important;
+  }
+#body-modal {
+	height: 20em;
+}
+/* the beginning of the tabs css*/
+#tabs-container {
+	  margin-top: 5em;
+}
+.tabbable-panel {
+  border:1px solid #0BA4F4;
+  background-color: rgba(11, 164, 244, 0.39);
+  padding: 10px;
+}
+/* additions start */
+.letab {
+	  margin-top: 7.5em;
+}
+/* additions stop*/
+/* Default mode */
+.tabbable-line > .nav-tabs {
+  border: none;
+  margin: 0px;
+}
+.tabbable-line > .nav-tabs > li {
+  margin-right: 2px;
+}
+.tabbable-line > .nav-tabs > li > a {
+  border: 0;
+  margin-right: 0;
+  color: #FFFFFF;
+}
+.tabbable-line > .nav-tabs > li > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+  border-bottom: 4px solid rgb(180, 226, 250);
+}
+.tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+  border: 0;
+  background: none !important;
+  color: #333333;
+}
+.tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0px;
+}
+.tabbable-line > .nav-tabs > li.active {
+  border-bottom: 4px solid rgb(11, 164, 244);
+  position: relative;
+}
+.tabbable-line > .nav-tabs > li.active > a {
+  border: 0;
+   background-color: rgba(255, 255, 255, 1);
+  color: #0BA4F4;
+}
+.tabbable-line > .nav-tabs > li.active > a > i {
+  color: #404040;
+}
+.tabbable-line > .tab-content {
+   margin-top: -3px;
+ background-color: rgba(253, 253, 253, 1);
+  border: 0;
+  border-top: 1px solid #0BA4F4;
+  padding: 15px 0;
+}
+.portlet .tabbable-line > .tab-content {
+  padding-bottom: 0;
+}
+/* the end of the tabs css */
+
+/* drop down start */
+#dropdown{
+	  padding: 2px 10px 0px 9px !important;
+}
+#dropdown-toggle {
+	  padding: 0.5em 1.5em 0.5em 0.5em;
+}
+.fb-profile-text ul {
+	margin-top: -3% !important;
+}
+.nav>li>a:hover, .nav>li>a:focus, .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+    background:#fff;
+}
+.dropdown {
+    background:#fff;
+    border:1px solid #ccc;
+    border-radius:4px;
+    width:12em; 
+    margin: 0 0 0.5em 0;	
+}
+.dropdown-menu>li>a {
+    color:#428bca;	
+}
+.navbar-nav > li > .dropdown-menu {
+  margin-top: 1em;
+  }
+.dropdown ul.dropdown-menu {
+    border-radius:4px;
+    box-shadow:none;
+    margin-top:20px;
+     width: 12em;
+}
+.dropdown ul.dropdown-menu:before {
+    content: "";
+    border-bottom: 10px solid #fff;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: -10px;
+    right: 16px;
+    z-index: 10;
+}
+.dropdown ul.dropdown-menu:after {
+    content: "";
+    border-bottom: 12px solid #ccc;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    position: absolute;
+    top: -12px;
+    right: 14px;
+    z-index: 9;
+}
+/* dropdown stop */

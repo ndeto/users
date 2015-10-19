@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09-Sep-2015, 15:01:24
+    Author     : DarthKing
+*/
+
+body {
+background-color:#f5f5f5;
+color: #565656 !important;
+font-family: 'Verdana';
+}
+#menu {
+ margin-top: 9em;
+}
+#nav{
+    background-color: #fff !important;
+    height: 7em !important;
+    padding-top: 2em;
+    font-family: Arial;
+    font-size: large;
+    color: blue !important;
+}
+#body-cont{
+    margin-top: 2em;
+    background-color: #fff;
+    opacity: 0.9;
+    border-radius: 1em;
+    padding: 10px 10px 10px 10px;
+}
+
+.blue{
+    color: #00ccff;
+}
+span.blue{
+    color: #00ccff;
+}
+
+span.logo-text{
+    font-family: 'Harlow Solid';
+    font-size: 34px;
+    color: #00ccff;
+}
+span.largefirst{
+    font-family: 'Harlow Solid';
+    font-size: 50px;
+    color: #00ccff;
+}
+.green a{
+    color: darkgreen;
+}
+
+span.red a{
+    color: darkred;
+}
