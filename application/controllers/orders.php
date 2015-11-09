@@ -243,7 +243,7 @@ class Orders extends CI_Controller{
     public function view($order_id){
         require_once 'application/siteconfig/siteconfig.php';
         $set_data = Siteconfig::check_login();
-        $data['order']['user_id'] = $set_data['username'];
+        $data['order']['user_id'] = $this->session->userdata('username');
         $data['order'] = $this->order_model->get_orders($order_id);
         $this->load->view('templates/header');
         $this->load->view('templates/menu');

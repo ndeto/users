@@ -165,5 +165,21 @@ class User extends CI_Controller{
         $this->load->view('users/profile');
         $this->load->view('templates/footer');
     }
+
+    public function editprofnav(){
+        $this->load->view('users/editprofnav');
+    }
+
+    public function accountnav(){
+        $this->load->view('users/accountnav');
+    }
+
+    public function paynav(){
+        $this->load->view('users/paynav');
+    }
+
+    public function homenav(){
+        $this->load->view('users/homenav');
+    }
      
 } //End User Controller

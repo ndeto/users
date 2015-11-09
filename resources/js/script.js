@@ -1,4 +1,4 @@
-/* 
+/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -63,6 +63,35 @@ function incomplete(oid,baseid){
     {// code for IE6, IE5
         xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
     }
+}
+
+function getcontent(linkid,base){
+    $('#editprofnav').removeClass('active');
+    $('#accountnav').removeClass('active');
+    $('#paynav').removeClass('active');
+    $('#homenav').removeClass('active');
+    $('#'+linkid).addClass('active');
+
+    document.getElementById("body-cont").innerHTML="";
+
+    if (window.XMLHttpRequest)
+    {// code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp=new XMLHttpRequest();
+    }
+    else
+    {// code for IE6, IE5
+        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange=function()
+    {
+        if (xmlhttp.readyState==4 && xmlhttp.status==200)
+        {
+            document.getElementById("body-cont").innerHTML=xmlhttp.responseText;
+        }
+    }
+    xmlhttp.open("GET",base+"index.php/user/"+linkid,true);
+    xmlhttp.send();
+
 }
 
 

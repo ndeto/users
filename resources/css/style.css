@@ -22,18 +22,28 @@ font-family: 'Verdana';
     padding-top: 2em;
     font-family: Arial;
     font-size: large;
-    color: blue !important;
+    color: #999999 !important;
 }
 #body-cont{
     margin-top: 2em;
     background-color: #fff;
     opacity: 0.9;
-    border-radius: 1em;
+    border-radius: 3px;
     padding: 10px 10px 10px 10px;
+}
+
+#vert-nav{
+    margin-top: 2em;
 }
 
 .blue{
     color: #00ccff;
+}
+.green{
+    color: #00CC00;
+}
+.orange{
+    color: orange;
 }
 span.blue{
     color: #00ccff;
