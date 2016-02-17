@@ -94,6 +94,23 @@ function getcontent(linkid,base){
 
 }
 
+function show_chat(orderid){
+    $('#body-cont').removeClass('col-md-offset-3');
+    $('#chat_box').slideToggle('slow');
+    document.getElementById("chat_button").onclick = hide_chat;
+}
+
+function hide_chat(){
+    $('#chat_box').hide();
+    $('#body-cont').addClass('col-md-offset-3');
+    document.getElementById("chat_button").onclick = show_chat;
+}
+
+
+$(function(){
+    $("#chat_box").hide();
+
+});
 
 
 
